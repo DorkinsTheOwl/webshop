@@ -1,0 +1,23 @@
+.right-side {
+  flex: 1 15%;
+  max-width: 200px;
+}
+
+.calendar {
+  transform: scale(0.57);
+  max-width: none !important;
+  margin-bottom: -60%;
+  -webkit-transform-origin-x: 0;
+  -webkit-transform-origin-y: 0;
+}
+
+.search-input {
+  width: 100%;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-top: 15px;
+}

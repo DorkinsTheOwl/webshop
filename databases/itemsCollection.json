@@ -1,0 +1,144 @@
+{
+	"_id" : ObjectId("5c02bb5c1979c94c28191f1d"),
+	"name" : "Dators",
+	"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+	"image" : "https://i2.wp.com/www.england.edu/wp-content/themes/englandedu/images/articles/desktop_computer.jpg",
+	"quantity" : 2,
+	"price" : 599.99,
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5c02bc301979c94c28191f1e"),
+	"name" : "Galds",
+	"description" : "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+	"image" : "https://www.ikea.com/gb/en/images/products/t%C3%A4rend%C3%B6-table-black__0241636_pe381441_s4.jpg",
+	"quantity" : 1,
+	"price" : 44.99,
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5c02beaa1979c94c28191f1f"),
+	"name" : "Krēsls",
+	"description" : "m et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta",
+	"image" : "https://www.ikea.com/ca/en/images/products/ekedalen-chair-brown__0516603_PE640439_S4.JPG",
+	"quantity" : 3,
+	"price" : 23.33,
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5c02bed11979c94c28191f20"),
+	"name" : "Lampa",
+	"description" : "s, placerat interdum nibh. Vivamus placerat fermentum aliquet. Sed egestas, nisi eget posuere pellentesque, quam nulla finibus leo, eu dapibus purus magna in mauris. Sed scelerisque volutpat dui in condimentum. Nullam et consequat urna, rhoncus sollicitudin elit. Pellentesque et elit sed dui venenatis pellentesque a id lectus. Maecenas porttitor nunc id lacus varius eleifend. Nullam at dictum libero, eu efficitur ante. Praesent scelerisque mauris et ante rutrum, vitae",
+	"image" : "https://www.ikea.com/gb/en/images/products/lampan-table-lamp-blue__0609344_pe684465_s5.jpg",
+	"quantity" : 3,
+	"price" : 13.87,
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5c02bf291979c94c28191f21"),
+	"name" : "Ledusskapis",
+	"description" : "rcu ullamcorper. Morbi ut faucibus nibh. Nullam tempor ante odio, vitae feugiat erat rutrum nec. Nulla in neque ultricies, sodales mauris et, sagittis nulla. Pellentesque vehicula odio sed malesuada fringilla. Nullam eu arcu lobortis, faucibus erat non, feugiat justo. Pellentesque vel congue erat. Vestibulum viverra, lectus quis vene",
+	"image" : "https://brain-images-ssl.cdn.dixons.com/9/4/10164049/u_10164049.jpg",
+	"quantity" : 5,
+	"price" : 233.98,
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5c02bf661979c94c28191f22"),
+	"name" : "Riepas",
+	"description" : "Ut id feugiat sem, in luctus massa. Sed eu consectetur massa. Suspendisse iaculis luctus arcu, vitae vehicula velit hendrerit vel. Curabitur ut euismod turpis, placerat interdum nibh. Vivamus placerat fermentum aliquet. Sed egestas, nisi eget posuere pellentesque, quam nulla finibus leo, eu dapibus purus magna in mauris. Sed scelerisque volutpat dui in condimentum. Nullam et consequat urna, rhoncus sollicitudin elit. Pellentesque et elit sed dui venenatis pellentesque a id lectus. Maecenas porttitor nunc id lacus varius eleifend. Nullam at dictum libero, eu efficitur ante. Praesent scelerisque mauris et ante rutrum, vitae scelerisque nisl finibus. Quisque maximus, sapien efficitur porta feugiat, est felis dictum nibh, a pretium ligula diam ac odio. In hac habitasse platea dictumst.",
+	"image" : "https://images.tirebuyer.com/visual-aids/products/tires/continental/extremecontactdws06/continental_extremecontactdws06_bw_140843_vary.jpg",
+	"quantity" : 8,
+	"price" : 98.76,
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5c02bf9d1979c94c28191f23"),
+	"name" : "Putekļu sūcējs",
+	"description" : "Aliquam ut neque et dui gravida vestibulum. Sed purus dui, porttitor et nibh vitae, blandit tincidunt elit. Nulla eu ultricies magna, ac sollicitudin ex. Maecenas sit amet sollicitudin eros, id rhoncus lectus. Duis non leo lobortis, imperdiet lorem vel, rhoncus tortor. Aliquam metus magna, tempor sed vestibulum a, bibendum in nisl. Suspendisse potenti.",
+	"image" : "https://images-na.ssl-images-amazon.com/images/I/41fA79H5XgL._SX425_.jpg",
+	"quantity" : 3,
+	"price" : 77.67,
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5c02bfc91979c94c28191f24"),
+	"name" : "Izlietne",
+	"description" : "Aliquam ut neque et dui gravida vestibulum. Sed purus dui, porttitor et nibh vitae, blandit tincidunt elit. Nulla eu ultricies magna, ac sollicitudin ex. Maecenas sit amet sollicitudin eros, id rhoncus lectus. Duis non leo lobortis, imperdiet lorem vel, rhoncus tortor. Aliquam metus magna, tempor sed vestibulum a, bibendum in nisl. Suspendisse potenti.",
+	"image" : "https://images.homedepot-static.com/productImages/34e81148-a081-4f36-8614-9e6a607f0b3c/svn/durable-satin-elkay-drop-in-kitchen-sinks-hd320874lfr-64_1000.jpg",
+	"quantity" : 7,
+	"price" : 44.9,
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5c02c0841979c94c28191f25"),
+	"name" : "Gulta",
+	"description" : "s ut. Phasellus nibh ante, dictum in vestibulum eu, imperdiet ut mi. Donec varius dui felis, eget ultricies lectus efficitur a. Aliquam ultricies leo mauris, at suscipit sem sodales non. Etiam id augue ornare, sagittis tortor vitae, faucibus nunc. Suspendisse in nunc vel libero consecte",
+	"image" : "https://www.ikea.com/gb/en/images/products/songesand-bed-frame-white-lur%C3%B6y__0550505_pe658192_s5.jpg",
+	"quantity" : 1,
+	"price" : 788.12,
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5c02c3231979c94c28191f26"),
+	"name" : "Rokaspulkstenis",
+	"description" : "mcorper. Morbi ut faucibus nibh. Nullam tempor ante odio, vitae feugiat erat rutrum nec. Nulla in neque ultricies, sodales mauris et, sagittis nulla. Pellentesque vehicula odio sed malesuada fringilla. Nullam eu arcu lobortis, faucibus erat non, feugiat justo. Pellentesque vel congue erat. Vestibulum viverra, ",
+	"image" : "https://images-na.ssl-images-amazon.com/images/I/51SJl9whqSL.jpg",
+	"quantity" : 12,
+	"price" : 299.32,
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5c02c4191979c94c28191f28"),
+	"name" : "Gludeklis",
+	"description" : "mcorper. Morbi ut faucibus nibh. Nullam tempor ante odio, vitae feugiat erat rutrum nec. Nulla in neque ultricies, sodales mauris et, sagittis nulla. Pellentesque vehicula odio sed malesuada fringilla. Nullam eu arcu lobortis, faucibus erat non, feugiat justo. Pellentesque vel congue erat. Vestibulum viverra, ",
+	"image" : "https://rukminim1.flixcart.com/image/832/832/jdvziq80/iron/f/g/z/billion-1100-w-non-stick-extra-power-xr112-original-imaf2zyevnmrfncv.jpeg?q=70",
+	"quantity" : 23,
+	"price" : 19.99,
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5c02c45d1979c94c28191f29"),
+	"name" : "USB atmiņas karte",
+	"description" : "m et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta",
+	"image" : "https://images.kogan.com/image/fetch/s--7RXDRA3q--/b_white,c_pad,f_auto,h_400,q_auto:good,w_600/https://assets.kogan.com/files/product/CablesAdapters/KAAPDMU3PTYPC_1.jpg",
+	"quantity" : 3,
+	"price" : 34.88,
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5c02c4c21979c94c28191f2a"),
+	"name" : "Tējkanna (elektriskā)",
+	"description" : "Donec ornare orci vitae lectus dapibus, eget tempor lectus sodales. Pellentesque ut diam massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel nisl sem. Lorem ipsum dolor sit ame",
+	"image" : "https://i.ebayimg.com/images/g/e7UAAOSwux5YV9S6/s-l640.jpg",
+	"quantity" : 4,
+	"price" : 8.99,
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5c02c7241979c94c28191f2b"),
+	"name" : "Skuveklis",
+	"description" : "Quisque at enim elementum, pellentesque neque id, dapibus urna. Maecenas malesuada felis ex, quis mollis ex aliquet nec. Suspendisse enim erat, hendrerit ut lobortis eget, cursus efficitur eros. Nam ut malesuada ex, quis dictum metus. Morbi vitae cursus tellus. Proin tristique ex suscipit tempor vulputate.",
+	"image" : "https://images.philips.com/is/image/PhilipsConsumer/7345XL_17-IMS-en_GB?$jpglarge$&wid=1250",
+	"quantity" : 3,
+	"price" : 128.27,
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5c0411de2bb70b5944714206"),
+	"name" : "Giroskūteris",
+	"description" : "Giroskūteris ir ar iebūvētu žiroskopu! Giroskūterim nav nepieciešama manuāla kontrole, tas tiek kontrolets ar ķermeņa svaru un līdzsvaru. Šīs modelis atšķirās no analoga precēm ar to, ka ir aprīkots ar lieliem 10 collu riteņiem, kas ļauj ērtāk un vieglāk pārvarēt dažādus šķēršļus un nelīdzenumus uz ceļa. ",
+	"image" : "https://lv2.pigugroup.eu/colours/403/387/2/4033872/55cbeae7c31dbc308c118a897c7c8c44_xbig.jpg",
+	"quantity" : 1,
+	"price" : 199.99,
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5c0412792bb70b5944714208"),
+	"name" : "Televizors",
+	"description" : "Izmantojot „Hitachi 43HE4000“ televizoru, jums patiks augstas izšķirtspējas Full HD (1920 x 1080 pikseļi) skats. Televizors nodrošina ātru attēlu apstrādi un „Picture Master“ tehnoloģiju, lai nodrošinātu maksimālu kvalitāti. LED apgaismojums nodrošina daudz krāsu un attēlu detaļu, bet enerģijas patēriņš joprojām būs zems.",
+	"image" : "https://lv1.pigugroup.eu/colours/597/655/7/5976557/2d52c273d66770170e6a7ff76c4944dd_xbig.jpg",
+	"quantity" : 2,
+	"price" : 271.99,
+	"__v" : 0
+}

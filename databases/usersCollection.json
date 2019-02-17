@@ -1,0 +1,71 @@
+{
+	"_id" : ObjectId("5c02b7a21979c94c28191f15"),
+	"email" : "admin@admin.com",
+	"password" : "$2a$10$qI24P4XvGuyfOwVDc/VkBeyMD8vPKGAumbp48DDoHYlt1NLvcblne",
+	"level" : 10,
+	"tokens" : [
+		{
+			"_id" : ObjectId("5c02b7a21979c94c28191f16"),
+			"access" : "auth",
+			"token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YzAyYjdhMjE5NzljOTRjMjgxOTFmMTUiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTQzNjgxOTU0fQ.mxZG8Oaj7mDe8GvdUyo4gu67LCv919KVgnT-PyrwjAE"
+		},
+		{
+			"_id" : ObjectId("5c02e6671979c94c28191f56"),
+			"access" : "auth",
+			"token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YzAyYjdhMjE5NzljOTRjMjgxOTFmMTUiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTQzNjkzOTI3fQ.NTdCjUcfIbq3RdVmO0WWH95d-R5wXiQxb1gIVIXL6Lc"
+		},
+		{
+			"_id" : ObjectId("5c04123a2bb70b5944714207"),
+			"access" : "auth",
+			"token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YzAyYjdhMjE5NzljOTRjMjgxOTFmMTUiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTQzNzcwNjgyfQ.4W5IPxTpZIjebpJjq6FZ3jxR-kP2ihPRqv_sphm2q9Y"
+		}
+	],
+	"__v" : 21
+}
+{
+	"_id" : ObjectId("5c02c7e51979c94c28191f2c"),
+	"email" : "mail@mail.com",
+	"password" : "$2a$10$PtBGh9yNt5ofV3yGNo9pbO.McAWTCSuEaDOgIlH8h1P1p1A9vIfJC",
+	"level" : 1,
+	"tokens" : [
+		{
+			"_id" : ObjectId("5c02c7e61979c94c28191f2d"),
+			"access" : "auth",
+			"token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YzAyYzdlNTE5NzljOTRjMjgxOTFmMmMiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTQzNjg2MTE4fQ.PhpQnlWDnw48dD3gZiWSdpbe317WFuiXfD_iRE6F0R0"
+		},
+		{
+			"_id" : ObjectId("5c02e4ea1979c94c28191f55"),
+			"access" : "auth",
+			"token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YzAyYzdlNTE5NzljOTRjMjgxOTFmMmMiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTQzNjkzNTQ2fQ.fqKXFt-LcGir6wq9J7jK9tnsNJWAzg_EkTxgz_PviL8"
+		}
+	],
+	"__v" : 17
+}
+{
+	"_id" : ObjectId("5c02cb341979c94c28191f49"),
+	"email" : "mail1@mail.com",
+	"password" : "$2a$10$Uz7htZ2WXcSLMtBfRh3DbuT5rnTJG5s7cqeZB2CmYiFM4Q/v/c/sW",
+	"level" : 1,
+	"tokens" : [
+		{
+			"_id" : ObjectId("5c02cb341979c94c28191f4a"),
+			"access" : "auth",
+			"token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YzAyY2IzNDE5NzljOTRjMjgxOTFmNDkiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTQzNjg2OTY0fQ.9JZLWG3Q3sq8YYhh66kbZ7dAAj9VHmEKqR7KPvRbaRU"
+		}
+	],
+	"__v" : 3
+}
+{
+	"_id" : ObjectId("5c0411a72bb70b5944714202"),
+	"email" : "mail2@mail.com",
+	"password" : "$2a$10$zjjbvjceh8nqZ2c2G6WgTuWqR1a8m1RNiJ3EotaHE2WZ8kqjXiJQ2",
+	"level" : 1,
+	"tokens" : [
+		{
+			"_id" : ObjectId("5c0411a72bb70b5944714203"),
+			"access" : "auth",
+			"token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YzA0MTFhNzJiYjcwYjU5NDQ3MTQyMDIiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTQzNzcwNTM1fQ.14hIYtZ9LNDJ5zRWhir0BzZhrV-7z5NoO_H3E_ahME0"
+		}
+	],
+	"__v" : 2
+}

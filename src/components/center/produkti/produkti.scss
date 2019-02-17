@@ -1,0 +1,28 @@
+.card {
+  width: 18rem;
+  margin-bottom: 20px;
+  color: inherit;
+
+  &-img-top {
+    max-height: 180px;
+  }
+
+  &:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.list-of-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.price {
+  color: #7D1B99;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 28px;
+  height: 29px;
+}
