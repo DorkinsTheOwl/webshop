@@ -9,7 +9,7 @@ class Produkti extends React.Component {
 
     onClick(e, item) {
         e.preventDefault();
-        this.props.addItemToCard({...item, id: Math.random()});
+        this.props.addItemToCard({...item});
     }
 
     renderPosts() {

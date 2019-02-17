@@ -48,7 +48,7 @@ app.post('/users', async (req, res) => {
         const token = await user.generateAuthToken();
         res.header('x-auth', token).send(user);
     } catch (e) {
-        res.status(400).send(e);
+        res.status(400).send({...e, message: 'Lietotājs ar šādu e-pastu jau eksistē!'});
     }
 });
 
@@ -63,8 +63,8 @@ app.post('/users/login', async (req, res) => {
         const user = await User.findByCredentials(body.email, body.password);
         const token = await user.generateAuthToken();
         res.header('x-auth', token).send(user);
-    } catch (e) {
-        res.status(400).send(e);
+    } catch (message) {
+        res.status(400).send({message});
     }
 });
 

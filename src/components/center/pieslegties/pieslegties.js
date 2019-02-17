@@ -5,8 +5,17 @@ import axios from 'axios';
 import { withRouter } from "react-router-dom";
 import { saveUser } from "../../../actions";
 import './pieslegties.scss';
+import Message from "../../message/message";
 
 class Pieslegties extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            error: true,
+            errorMessage: ''
+        }
+    }
 
     renderField(field) {
         const {meta: {touched, error}} = field;
@@ -27,6 +36,7 @@ class Pieslegties extends React.Component {
     }
 
     onSubmit(values) {
+        this.setState({display: false});
         axios.post('http://localhost:3000/users/login', {
             email: values.email,
             password: values.password
@@ -34,8 +44,8 @@ class Pieslegties extends React.Component {
             localStorage.setItem('token', resp.headers['x-auth']);
             this.props.saveUser(resp.data);
             this.props.history.push('/galvena');
-        }).catch(e => {
-            console.log(e);
+        }, err => {
+            this.setState({display: true, message: err.response.data.message})
         });
     }
 
@@ -58,6 +68,7 @@ class Pieslegties extends React.Component {
                         <button type='submit' className='btn btn-primary'>Pieslēgties</button>
                     </div>
                 </form>
+                <Message message={this.state.message} display={this.state.display} error={this.state.error}/>
             </div>
         );
     }

@@ -35,7 +35,7 @@ class Grozs extends React.Component {
         _.map(this.props.cart, item => {
             price += item.price;
         });
-        return price;
+        return price.toFixed(2);
     }
 
     render() {

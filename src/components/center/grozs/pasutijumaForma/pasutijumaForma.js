@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { Field, reduxForm } from "redux-form";
 import './pasutijumaForma.scss';
+import { withRouter } from "react-router-dom";
 import { initialFormValues, onOrderMade } from "../../../../actions";
 import Message from "../../../message/message";
 
@@ -119,7 +120,7 @@ function mapStateToProps(state) {
     }
 }
 
-export default reduxForm({
+export default withRouter(reduxForm({
     validate,
     form: 'PasutijumaForma'
-})(connect(mapStateToProps, {onOrderMade, initialFormValues})(PasutijumaForma));
+})(connect(mapStateToProps, {onOrderMade, initialFormValues})(PasutijumaForma)));

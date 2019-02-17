@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { Field, reduxForm } from "redux-form";
 import axios from 'axios';
+import { withRouter } from "react-router-dom";
 import './registreties.scss';
 import Message from "../../message/message";
 import { onSuccessfulRegistration } from "../../../actions";
@@ -42,8 +43,8 @@ class Registreties extends React.Component {
         }).then(() => {
             this.setState({display: true, message: 'Reģistrācija veiksmīga', error: false});
             this.props.onSuccessfulRegistration();
-        }).catch(() => {
-            this.setState({display: true, message: 'Reģistrācija neveiksmīga', error: true});
+        }, e => {
+            this.setState({display: true, message: e.response.data.message, error: true});
         });
     }
 
@@ -103,7 +104,7 @@ function validate(values) {
     return errors;
 }
 
-export default reduxForm({
+export default withRouter(reduxForm({
     validate,
     form: 'RegistracijasForma'
-})(connect(null, {onSuccessfulRegistration})(Registreties));
+})(connect(null, {onSuccessfulRegistration})(Registreties)));

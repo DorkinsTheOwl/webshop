@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { Field, reduxForm } from "redux-form";
 import { afterItemAdded, fetchAllItems } from '../../../actions';
+import { withRouter } from "react-router-dom";
 import axios from 'axios';
 import './pievienotPreci.scss';
 import Message from "../../message/message";
@@ -102,7 +103,7 @@ function validate(values) {
     return errors;
 }
 
-export default reduxForm({
+export default withRouter(reduxForm({
     validate,
     form: 'PrecesPievienosanasForma'
-})(connect(null, {afterItemAdded, fetchAllItems})(PievienotPreci));
+})(connect(null, {afterItemAdded, fetchAllItems})(PievienotPreci)));

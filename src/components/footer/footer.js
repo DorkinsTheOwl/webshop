@@ -8,7 +8,7 @@ class Footer extends React.Component {
             <footer className="footer">
                 <div className='container mt-3 mb-3'>
                     <div className='row'>
-                        <div className='col'>© Toms Sokolovs - 2018</div>
+                        <div className='col'>© Toms Sokolovs</div>
                     </div>
                 </div>
             </footer>
