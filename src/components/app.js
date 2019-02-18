@@ -14,7 +14,7 @@ class App extends Component {
     componentDidMount() {
         const token = localStorage.getItem('token');
         if (!!token) {
-            axios.get('http://localhost:3000/users/me', {
+            axios.get(`${window.location.origin}/users/me`, {
                 headers: {'x-auth': token}
             }).then(resp => {
                 this.props.saveUser(resp.data);

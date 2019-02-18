@@ -35,7 +35,7 @@ class PievienotPreci extends React.Component {
     }
 
     onSubmit(values) {
-        axios.post('http://localhost:3000/items', {
+        axios.post(`${window.location.origin}/items`, {
             ...values
         }, {headers: {'x-auth': localStorage.getItem('token')}}).then(resp => {
             this.props.afterItemAdded();

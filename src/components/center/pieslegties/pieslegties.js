@@ -37,7 +37,7 @@ class Pieslegties extends React.Component {
 
     onSubmit(values) {
         this.setState({display: false});
-        axios.post('http://localhost:3000/users/login', {
+        axios.post(`${window.location.origin}/users/login`, {
             email: values.email,
             password: values.password
         }).then(resp => {

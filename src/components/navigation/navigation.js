@@ -60,7 +60,7 @@ class Navigation extends React.Component {
     logout() {
         const token = localStorage.getItem('token');
 
-        axios.delete('http://localhost:3000/users/me/token', {headers: {'x-auth': token}})
+        axios.delete(`${window.location.origin}/users/me/token`, {headers: {'x-auth': token}})
             .then(() => {
                 localStorage.removeItem('token');
                 this.props.saveUser(null);

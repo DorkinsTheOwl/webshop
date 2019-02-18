@@ -1,6 +1,7 @@
 require('./config/config');
 
 const _ = require('lodash');
+const path = require('path');
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
@@ -11,13 +12,15 @@ const { User } = require('./models/user');
 const { authenticate, authenticateForItem } = require('./middleware/authenticate');
 
 const app = express();
-const port = process.env.PORT;
+const publicPath = path.join(__dirname, '../dist');
+const port = process.env.PORT || 3000;
 
 const corsOptions = {
     exposedHeaders: 'x-auth'
 };
 
 app.use(bodyParser.json());
+app.use(express.static(publicPath));
 app.use(cors(corsOptions));
 
 app.post('/items', authenticateForItem, (req, res) => {
@@ -75,6 +78,10 @@ app.delete('/users/me/token', authenticate, async (req, res) => {
     } catch (e) {
         res.status(400).send();
     }
+});
+
+app.get('/*', (req, res) => {
+    res.sendFile(publicPath + '/index.html');
 });
 
 app.listen(port, () => {

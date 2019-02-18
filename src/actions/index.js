@@ -10,7 +10,7 @@ export const ORDER_MADE = 'order_made';
 export const INITIAL_VALUES = 'initial_values';
 export const FILTER_ITEMS = 'filter_items';
 
-const ROOT_URL = 'http://localhost:3000';
+const ROOT_URL = window.location.origin;
 
 export function fetchAllItems() {
     let request = axios.get(`${ROOT_URL}/items`);

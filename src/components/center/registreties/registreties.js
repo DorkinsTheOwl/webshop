@@ -37,7 +37,7 @@ class Registreties extends React.Component {
     }
 
     onSubmit(values) {
-        axios.post('http://localhost:3000/users', {
+        axios.post(`${window.location.origin}/users`, {
             email: values.email,
             password: values.password
         }).then(() => {

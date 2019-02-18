@@ -8,6 +8,7 @@ import App from './components/app';
 import reducers from './reducers';
 import { BrowserRouter } from "react-router-dom";
 import { createLogger } from 'redux-logger';
+import '../style.css';
 
 const logger = createLogger({
     collapsed: true
