@@ -64,8 +64,7 @@ app.post('/users/login', async (req, res) => {
     try {
         const body = _.pick(req.body, ['email', 'password']);
         const user = await User.findByCredentials(body.email, body.password);
-        // const token = await user.generateAuthToken();
-        const token = 'awdawdaw';
+        const token = await user.generateAuthToken(); // TODO: this causes issue in heroku
         res.header('x-auth', token).send(user);
     } catch (message) {
         res.status(400).send({message});

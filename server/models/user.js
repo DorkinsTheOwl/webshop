@@ -41,11 +41,23 @@ UserSchema.methods.generateAuthToken = function () {
     const access = 'auth';
     const token = jwt.sign({_id: user._id.toHexString(), access}, process.env.JWT_SECRET).toString();
 
+    console.log(token);
+
     user.tokens = user.tokens.concat({access, token});
 
-    return user.save().then(() => {
-        return token;
-    });
+    console.log(users.tokens);
+
+    try {
+        return user.save().then(() => {
+            return token;
+        }).catch(e => {
+            console.log('error in user.save.then', e);
+            return e;
+        });
+    } catch (e) {
+        console.log('error in try catch for generateAuthToken',e);
+        return e;
+    }
 };
 
 UserSchema.methods.toJSON = function () {
