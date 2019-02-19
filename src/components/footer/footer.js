@@ -11,8 +11,8 @@ class Footer extends React.Component {
                         <div className='col'>© Toms Sokolovs</div>
                         <br/>
                         <small>Admin login to add items to product list</small>
-                        <small>Admin - admin@admin.com</small>
-                        <small>Password - qwerty</small>
+                        <small> Admin - admin@admin.com</small>
+                        <small> Password - qwerty</small>
                     </div>
                 </div>
             </footer>
