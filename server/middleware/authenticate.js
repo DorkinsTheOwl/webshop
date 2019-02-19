@@ -21,18 +21,18 @@ const authenticateForItem = (req, res, next) => {
 
     User.findByToken(token).then(user => {
         if (!user) {
-            return Promise.reject();
+            return Promise.reject('Lietotājs netika atrasts');
         }
 
         if (user.level !== 10) {
-            return Promise.reject();
+            return Promise.reject('Lietotājs nav administrators');
         }
 
         req.user = user;
         req.token = token;
         next();
     }).catch(e => {
-        res.status(401).send();
+        res.status(401).send(e);
     });
 };
 
