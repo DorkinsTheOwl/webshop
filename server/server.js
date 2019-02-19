@@ -67,7 +67,7 @@ app.post('/users/login', async (req, res) => {
         const token = await user.generateAuthToken();
         res.header('x-auth', token).send(user);
     } catch (message) {
-        res.status(400).json({message});
+        res.status(400).send({message});
     }
 });
 
