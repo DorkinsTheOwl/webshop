@@ -51,7 +51,7 @@ app.post('/users', async (req, res) => {
         const token = await user.generateAuthToken();
         res.header('x-auth', token).send(user);
     } catch (e) {
-        res.status(400).send({...e, message: 'Lietotājs ar šādu e-pastu jau eksistē!'});
+        res.status(400).send({error: e, message: 'Lietotājs ar šādu e-pastu jau eksistē!'});
     }
 });
 
