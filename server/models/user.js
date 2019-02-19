@@ -39,25 +39,14 @@ const UserSchema = new mongoose.Schema({
 UserSchema.methods.generateAuthToken = function () {
     const user = this;
     const access = 'auth';
-    const token = jwt.sign({_id: user._id.toHexString(), access}, process.env.JWT_SECRET).toString();
-
-    console.log(token);
+    // const token = jwt.sign({_id: user._id.toHexString(), access}, process.env.JWT_SECRET).toString();
+    const token = 'someToken';
 
     user.tokens = user.tokens.concat({access, token});
 
-    console.log(users.tokens);
-
-    try {
-        return user.save().then(() => {
-            return token;
-        }).catch(e => {
-            console.log('error in user.save.then', e);
-            return e;
-        });
-    } catch (e) {
-        console.log('error in try catch for generateAuthToken',e);
-        return e;
-    }
+    return user.save().then(() => {
+        return token;
+    });
 };
 
 UserSchema.methods.toJSON = function () {
